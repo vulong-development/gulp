@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +19,7 @@
     "gulp-file-include": "^2.3.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-sass": "^5.0.0",
-    "sass": "^1.42.1"
+    "sass": "^1.42.1",
+    "vulong-editorconfig": "^1.0.2"
   }
 }
