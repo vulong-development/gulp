@@ -18,6 +18,7 @@
   - gulp-sass
   - gulp-file-include
   - gulp-htmlmin
+  - gulp-uglify-es
   - sass
   
 
