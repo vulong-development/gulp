@@ -12,6 +12,8 @@
   [![Dependency Review](https://github.com/Vulong-development/gulp/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Vulong-development/gulp/actions/workflows/dependency-review.yml)
   
   [![CodeQL](https://github.com/Vulong-development/gulp/actions/workflows/codeql.yml/badge.svg)](https://github.com/Vulong-development/gulp/actions/workflows/codeql.yml)
+  
+  [![NodeJS with Gulp](https://github.com/Vulong-development/gulp/actions/workflows/npm-gulp.yml/badge.svg)](https://github.com/Vulong-development/gulp/actions/workflows/npm-gulp.yml)
 
   #### В данный шаблон Gulp входят следующие пакеты:
 
