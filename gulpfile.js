@@ -17,7 +17,7 @@ function html() {
       collapseWhitespace: true
     }))
     .pipe(dest('dist'))
-}
+};
 
 function scss() {
   return src('src/scss/**scss')
@@ -28,11 +28,11 @@ function scss() {
     .pipe(csso())
     .pipe(concat('style.css'))
     .pipe(dest('dist'))
-}
+};
 
 function clear() {
   return del('dist')
-}
+};
 
 function serve() {
   sync.init({
@@ -41,8 +41,8 @@ function serve() {
 
   watch('src/**.html', series(html)).on('change', sync.reload)
   watch('src/scss/**.scss', series(scss)).on('change', sync.reload)
-}
+};
 
-exports.build = series(clear, scss, html)          //Для продакшена
-exports.serve = series(clear, scss, html, serve)   //Для разработки
-exports.clear = clear
+exports.build = series(clear, scss, html);          //Для продакшена
+exports.serve = series(clear, scss, html, serve);   //Для разработки
+exports.clear = clear;
