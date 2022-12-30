@@ -10,6 +10,8 @@
   Текущий шаблон не является обязательным перечнем пакетов среды разработки. Допускается (рекомендуется) изменять состав пакетов в соответствии с конкретной задачей.
   
   [![Dependency Review](https://github.com/Vulong-development/gulp/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Vulong-development/gulp/actions/workflows/dependency-review.yml)
+  
+  [![CodeQL](https://github.com/Vulong-development/gulp/actions/workflows/codeql.yml/badge.svg)](https://github.com/Vulong-development/gulp/actions/workflows/codeql.yml)
 
   #### В данный шаблон Gulp входят следующие пакеты:
 
