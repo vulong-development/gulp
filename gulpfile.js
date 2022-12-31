@@ -46,3 +46,4 @@ function serve() {
 exports.build = series(clear, scss, html);          //Для продакшена
 exports.serve = series(clear, scss, html, serve);   //Для разработки
 exports.clear = clear;
+exports.defsult = build
