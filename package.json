@@ -20,7 +20,6 @@
     "gulp-file-include": "^2.3.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-sass": "^5.0.0",
-    "sass": "^1.42.1",
-    "vulong-editorconfig": "^1.0.2"
+    "sass": "^1.42.1"
   }
 }
