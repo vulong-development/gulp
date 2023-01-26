@@ -6,7 +6,20 @@ const htmlmin = require('gulp-htmlmin')
 const del = require('del')
 const concat = require('gulp-concat');                // Объединение набора файлов в один
 const autoprefixer = require('gulp-autoprefixer');   // Добавление вендорных префиксов
-const sync = require('browser-sync').create()
+const sync = require('browser-sync').create();
+
+// const html = {
+//   production: function () {
+//     return src('src/**.html')
+//       .pipe(include({
+//         prefix: '@@'
+//       }))
+//       .pipe(htmlmin({
+//         collapseWhitespace: true
+//       }))
+//       .pipe(dest('dist'))
+//   }
+// }
 
 function html() {
   return src('src/**.html')
@@ -44,6 +57,6 @@ function serve() {
 };
 
 exports.build = series(clear, scss, html);          //Для продакшена
-exports.serve = series(clear, scss, html, serve);   //Для разработки
+exports.dev = series(clear, scss, html, serve);   //Для разработки
 exports.clear = clear;
-exports.default = build
+
